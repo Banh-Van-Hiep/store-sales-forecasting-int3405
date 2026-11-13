@@ -1,0 +1,19 @@
+# Ignore raw & processed data files (too heavy for GitHub)
+data/raw/*.csv
+data/raw/*.zip
+data/processed/*.parquet
+data/processed/*.csv
+
+# Ignore submission files
+submissions/*.csv
+
+# Virtual env, pip cache & Kaggle credentials on D: drive
+.venv/
+venv/
+.pip_cache/
+kaggle.json
+
+# Python & Jupyter artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
